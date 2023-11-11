@@ -1,0 +1,104 @@
+/*
+Author: Colard J Meuter
+Date: 11/9/2023
+File Name: styles.css
+*/
+
+/* css Reset */
+body, header, nav, main, footer, h1, div, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+body {
+	background-color: #6562fc;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Style rule for header */
+header {
+	width: 25%;
+	float: left;
+	color: #AAFF00;
+}
+
+/* Style rules for navigation area */
+nav {
+	width: 70%;
+	float: right;
+	margin: 5em 3em 0 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: Veranda, Arial, Sans-serif;
+	font-weight: bold;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+	clear: left;
+	color: #fff;
+	background-color: #00008B;
+	padding: 2%;
+	font-size: 1.5em;
+}
+
+.action {
+	font-size: 1.35em;
+	color: #AAFF00;
+	font-weight: bold;
+}
+
+#mobile, #computer, #streaming {
+	width: 29%;
+	float: left;
+	margin: 0 2%;
+}	
+
+#contact {
+	text-align: center;
+}
+
+#contact a {
+	color: #AAFF00;
+	text-align: center;
+}
+
+.map {
+	border: 8px solid #AAFF00;
+}
+
+/* Style rules for footer content */
+footer p {
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1.5em;
+}
+
+footer p a {
+	color: #fff;
+	text-decoration: none;
+}
